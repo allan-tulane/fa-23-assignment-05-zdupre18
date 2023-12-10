@@ -15,7 +15,8 @@ depth of a $d$-ary heap?
 **put in answers.md**
 
 .  
-.  
+.  log d (n*(d-1) +1) -1
+because its determined by the number of nodes at each level of thr tree. shows the height based on the number of nodes(n) and d
 .  
 
 
@@ -32,8 +33,8 @@ work differs for each operation.
 
 **put in answers.md**
 
-.  
-.  
+.  delete-min = O(log d n) 
+.  insert =  O(log d n) 
 .  
 
 
@@ -47,7 +48,10 @@ $|V|$, $|E|$, and $d$ and will account for the `delete-min` and
 **put in answers.md**
 
 .  
-.  
+.  delete-min = O(log d |V|) (V once for each vertex)
+  intsert = O(logd |v|) 
+
+  bound = O(|V| * log d |V| + |E| * log d|V|)
 .  
 
 
@@ -61,7 +65,7 @@ that we have a moderate number of edges, that is  $|E| = |V|^{1+\epsilon}$ for $
 
 **put in answers.md**
 
-.  
+.  the value od d that uses the running time of O(|E|) is log d|V| 
 .  
 .  
 
