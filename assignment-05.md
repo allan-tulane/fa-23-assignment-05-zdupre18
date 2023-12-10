@@ -106,7 +106,9 @@ terms of $\mathit{APS}(i, j, 0)$ and $\mathit{APS}(i, j, 1)$ only?
 
 **put in answers.md**
 
-.  
+.  (i,j,0) represents the shortest paths using only 0 verecices 
+  (i,j,1) represents the shorts path using 0 and 1 vertices 
+  (i,j,2) represents shortest path for 0,1,2 veticices 
 .  
 .  
 
@@ -121,7 +123,7 @@ $\mathit{APSP}(i, j, k).$
 
 **put in answers.md**
 
-.  
+.  shortest path is using vettices 0 through k-1 or from i to k the shortest path would be from k to j using 0 and k vetices 
 .  
 .  
 
@@ -138,7 +140,7 @@ work of this dynamic programming algorithm?
 **put in answers.md**
 
 .  
-.  
+.  since this is using toop down memeorization and the verti
 .  
 
 
@@ -151,7 +153,8 @@ preferable?
 **put in answers.md**
 
 .  
-.  
+.  with top down memorization, there are n^3 subproblems 
+with each subproblem computed only once the total work complexity is O(n^3)
 .  
 
 
@@ -165,7 +168,7 @@ a) Consider a variation of the MST problem that instead asks for a tree that min
 **put in answers.md**
 
 .  
-.  
+.  no, the solution to the min spanning tree is not a solution to the MIn max edge tree problem, since MMET focuses on min and max weight amount all eges the solution of MST might not min the max age eight. it doesn't guarantee the min of the max edge weight within the tree 
 .  
 
 
@@ -174,17 +177,18 @@ b) Suppose that the optimal solution to MST is impossible to use for some reason
 
 **put in answers.md**
 
-.  
+.  using the kruskals alogorthm. since it will check at each step adding the current edges. if no tree exists after considering all edges it will conclude no next best tree. 
 .  
 .  
 
 
-c) What is the work of your algorithm?
+c) What is the work of your algorithm
 
 
 **put in answers.md**
 
 .  
-.  
+.  time complexity would be O(M * n) thm?
+
 .  
 
